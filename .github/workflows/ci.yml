@@ -12,5 +12,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: make pak files
+      - name: test
         run: npm ci && npm run test
