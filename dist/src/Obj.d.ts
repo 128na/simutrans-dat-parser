@@ -2,7 +2,7 @@ import Param from "./Param";
 export default class Obj {
     _line: number;
     _params: Param[];
-    constructor(original: string, line: number);
+    constructor(original: string, line?: number);
     get firstLine(): number;
     get lastLine(): number;
     get obj(): string | undefined;

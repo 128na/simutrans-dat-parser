@@ -6,7 +6,7 @@ export default class Obj {
   _line: number;
   _params: Param[];
 
-  constructor(original: string, line: number) {
+  constructor(original: string, line: number = 0) {
     this._line = line;
     this._params = original
       .split("\n")

@@ -32,6 +32,7 @@ define(["require", "exports", "./Param", "./RegExp", "./Sort"], function (requir
     Param_1 = __importDefault(Param_1);
     var Obj = /** @class */ (function () {
         function Obj(original, line) {
+            if (line === void 0) { line = 0; }
             this._line = line;
             this._params = original
                 .split("\n")
