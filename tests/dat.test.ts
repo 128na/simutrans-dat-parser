@@ -1,4 +1,4 @@
-import { Dat } from '../src/Dat';
+import Dat from '../src/Dat';
 
 const data = `obj=way
 name=example_name_1
