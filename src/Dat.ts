@@ -1,7 +1,7 @@
 import Obj from "./Obj";
 import { regNewLine, regObjSplitter } from "./RegExp";
 
-export class Dat {
+export default class Dat {
   _objs: Obj[];
 
   constructor(original: string) {
