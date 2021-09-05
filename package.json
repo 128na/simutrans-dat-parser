@@ -2,6 +2,15 @@
   "name": "simutrans-dat-parser",
   "version": "1.0.0",
   "description": "Simutrans dat file parser",
+  "keywords": [
+    "simutrans",
+    "dat",
+    "parser"
+  ],
+  "bugs": {
+    "url": "https://github.com/128na/simutrans-dat-parser/issues"
+  },
+  "homepage": "https://github.com/128na/simutrans-dat-parser#readme",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

@@ -1,5 +1,12 @@
 # Simutrans dat file parser
 
+A dat file parser for Simutrans.
+
+## Install
+
+```
+npm i simutrans-dat-parser
+```
 
 ## Usecase
 ### Parse from dat text
