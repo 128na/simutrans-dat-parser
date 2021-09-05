@@ -2,7 +2,7 @@
   "name": "simutrans-dat-parser",
   "version": "1.0.0",
   "description": "Simutrans dat file parser",
-  "main": "dist/src/",
+  "main": "dist/index.js",
   "files": [
     "dist"
   ],
