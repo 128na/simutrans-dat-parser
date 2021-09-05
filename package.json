@@ -7,7 +7,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc  --outfile dist/index.js",
+    "build": "tsc",
     "test": "jest"
   },
   "author": "128Na <simutrans.128na@gmail.com>",
