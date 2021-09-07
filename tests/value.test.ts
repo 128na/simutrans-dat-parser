@@ -24,5 +24,5 @@ test('value with directory', () => {
 });
 
 test('value with offset', () => {
-  expect((new Value('example.1.2,-1,-2'))._params).toEqual([1, 2, -1, -2]);
+  expect((new Value('../../example.1.2,-1,-2'))._params).toEqual([1, 2, -1, -2]);
 });

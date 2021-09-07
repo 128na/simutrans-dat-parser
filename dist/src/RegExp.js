@@ -7,4 +7,4 @@ exports.regObjSplitter = /---+/gi;
 exports.regParam = /^([^=]*)(=> |=)?(.*)?$/i;
 exports.regKeyParamAll = /\[([\w\d-]*)\]/ig;
 exports.regKeyParam = /\[([\w\d-]*)\]/i;
-exports.regValueParam = /[\.,]([-\d]*)/ig;
+exports.regValueParam = /^(.*?)\.(\d+)\.(\d+)(,(-?\d+),(-?\d+))?/i;
