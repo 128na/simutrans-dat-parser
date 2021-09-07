@@ -18,3 +18,11 @@ test('value params', () => {
 test('comment value', () => {
   expect((new Value(commentData))._val).toEqual(commentData);
 });
+
+test('value with directory', () => {
+  expect((new Value('../../example.1.2'))._params).toEqual([1, 2]);
+});
+
+test('value with offset', () => {
+  expect((new Value('example.1.2,-1,-2'))._params).toEqual([1, 2, -1, -2]);
+});

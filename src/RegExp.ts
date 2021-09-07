@@ -7,5 +7,4 @@ export const regParam = /^([^=]*)(=> |=)?(.*)?$/i;
 
 export const regKeyParamAll = /\[([\w\d-]*)\]/ig;
 export const regKeyParam = /\[([\w\d-]*)\]/i;
-export const regValueParam = /[\.,]([-\d]*)/ig;
-
+export const regValueParam = /^(.*?)\.(\d+)\.(\d+)(,(-?\d+),(-?\d+))?/i;
