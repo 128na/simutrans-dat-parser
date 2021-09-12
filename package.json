@@ -16,7 +16,7 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "release": "npm run build && npm publish"
+    "release": "npm run test && npm run build && npm publish"
   },
   "author": "128Na <simutrans.128na@gmail.com>",
   "license": "MIT",
