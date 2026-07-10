@@ -1,3 +1,4 @@
+import { test, expect } from "@jest/globals";
 import Key from "../src/Key";
 
 const data = 'image[0][1][2][3][4][5]';
