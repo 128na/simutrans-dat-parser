@@ -1,3 +1,4 @@
+import { test, expect } from '@jest/globals';
 import Dat from '../src/Dat';
 
 const data = `obj=way
